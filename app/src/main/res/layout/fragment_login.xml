@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginFragment">
+
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/cicular"
+        android:text="Laboratorio 7"
+        android:textColor="@color/black"
+        android:textSize="@dimen/titlemax"
+        app:layout_constraintBottom_toTopOf="@+id/correoLogin"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_chainStyle="packed" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/correoLogin"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Ingresa tu correo"
+        android:textAllCaps="false"
+        android:layout_marginStart="@dimen/marginStartEnd"
+        android:layout_marginEnd="@dimen/marginStartEnd"
+        android:layout_marginTop="@dimen/marginTopmid"
+        app:layout_constraintBottom_toTopOf="@id/NewuserLogin"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/title"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense">
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <TextView
+        android:id="@+id/NewuserLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/marginTopmin"
+        android:text="¿Nuevo usuario? ¡Crea tu cuenta aquí!"
+        android:textColor="@color/font_aqua"
+        app:layout_constraintStart_toStartOf="@+id/correoLogin"
+        app:layout_constraintBottom_toTopOf="@id/iniciosesion"
+        app:layout_constraintTop_toBottomOf="@+id/correoLogin" />
+
+
+    <Button
+        android:id="@+id/iniciosesion"
+        android:layout_width="0dp"
+        android:layout_marginTop="@dimen/marginTopmin"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="Iniciar sesión"
+        android:backgroundTint="@color/naranja"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/correoLogin"
+        app:layout_constraintStart_toStartOf="@+id/correoLogin"
+        app:layout_constraintTop_toBottomOf="@+id/NewuserLogin" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
