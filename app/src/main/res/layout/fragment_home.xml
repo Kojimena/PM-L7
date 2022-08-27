@@ -25,7 +25,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/marginTopmin"
-        android:text="@string/actualizar_peticion"
+        tools:text="@string/actualizar_peticion"
         android:textColor="@color/gris"
         app:layout_constraintStart_toStartOf="@+id/goodmorning"
         app:layout_constraintBottom_toTopOf="@id/actualizarperfil"

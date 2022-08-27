@@ -27,7 +27,7 @@
         android:textAllCaps="false"
         android:layout_marginStart="@dimen/marginStartEnd"
         android:layout_marginEnd="@dimen/marginStartEnd"
-        app:layout_constraintBottom_toTopOf="@id/button"
+        app:layout_constraintBottom_toTopOf="@id/buttonhome"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/titlenuevacuenta"
@@ -42,7 +42,7 @@
     </com.google.android.material.textfield.TextInputLayout>
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/buttonhome"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:text="@string/createacc"
