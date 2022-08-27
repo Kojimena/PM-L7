@@ -8,6 +8,7 @@ import androidx.navigation.findNavController
 import androidx.navigation.fragment.navArgs
 
 
+
 class HomeFragment : Fragment(R.layout.fragment_home) {
     private lateinit var textHome: TextView
     private lateinit var buttonActualizar: TextView
