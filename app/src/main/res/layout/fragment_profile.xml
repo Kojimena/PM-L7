@@ -13,7 +13,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/marginTopmid"
         android:fontFamily="@font/cicular"
-        android:text="Mi Perfil"
+        android:text="@string/profile"
         android:textColor="@color/black"
         android:textSize="@dimen/titlemax"
         app:layout_constraintEnd_toEndOf="parent"
@@ -30,7 +30,8 @@
         android:background="@drawable/background_round"
         app:layout_constraintStart_toStartOf="@id/miperfil"
         app:layout_constraintEnd_toEndOf="@id/miperfil"
-        app:layout_constraintTop_toBottomOf="@id/miperfil" />
+        app:layout_constraintTop_toBottomOf="@id/miperfil"
+        android:contentDescription="@string/imagendeperfil"/>
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/correofinal"
@@ -40,7 +41,7 @@
         android:layout_marginTop="@dimen/marginTopmin"
         android:layout_marginStart="@dimen/marginStartEnd"
         android:layout_marginEnd="@dimen/marginStartEnd"
-        android:hint="Correo electrónico"
+        android:hint="@string/correo_ingreso"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@id/camera"
@@ -59,7 +60,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/marginTopmid"
         android:backgroundTint="@color/naranja"
-        android:text="Actualizar"
+        android:text="@string/actualizarcorreo"
         android:textAllCaps="false"
         android:layout_marginBottom="@dimen/marginTopmid"
         app:layout_constraintBottom_toBottomOf="parent"
