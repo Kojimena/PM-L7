@@ -27,6 +27,8 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:hint="@string/ingreso_correo"
+        android:textColorHint="@color/gris"
+        app:boxStrokeColor="@color/gris"
         android:textAllCaps="false"
         android:layout_marginStart="@dimen/marginStartEnd"
         android:layout_marginEnd="@dimen/marginStartEnd"
@@ -40,6 +42,7 @@
     <com.google.android.material.textfield.TextInputEditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:textColor="@color/black"
         />
     </com.google.android.material.textfield.TextInputLayout>
 

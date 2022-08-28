@@ -43,14 +43,17 @@
         android:layout_marginStart="@dimen/marginStartEnd"
         android:layout_marginEnd="@dimen/marginStartEnd"
         android:hint="@string/correo_ingreso"
+        app:boxStrokeColor="@color/gris"
+        android:textColorHint="@color/gris"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@id/camera"
-
+        app:startIconTint="@color/gris"
         app:startIconDrawable="@drawable/ic_baseline_alternate_email_24">
 
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
+            android:textColor="@color/black"
             android:layout_height="wrap_content" />
 
     </com.google.android.material.textfield.TextInputLayout>

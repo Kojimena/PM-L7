@@ -52,7 +52,8 @@
         <action
             android:id="@+id/action_profileFragment_to_loginFragment2"
             app:destination="@id/loginFragment"
-            app:popUpTo="@id/homeFragment"/>
+            app:popUpTo="@id/homeFragment"
+            app:popUpToInclusive="true"/>
         <argument
             android:name="finalEmail"
             app:argType="string" />
